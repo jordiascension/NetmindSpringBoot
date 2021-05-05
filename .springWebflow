@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.9.201906180643-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>src/main/resources/application-dev.properties.xml</file>
+			<name><![CDATA[application-dev.properties]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:netmind-spring-boot-project|3:java:com.netmind.demo.NetmindSpringBootProjectApplication]]></beans-config>
+		</config>
+	</configs>
+</webflow-project-description>
