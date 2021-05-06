@@ -1,4 +1,4 @@
-package com.netmind.demo.dao;
+package com.netmind.demo.model;
 
 import lombok.Data;
 
