@@ -26,11 +26,11 @@ public class UserController {
 
 		String token = getJWTToken(username);
 		User user = new User();
-		user.setUser(username);
+		user.setUserName(username);
 		user.setPwd(pwd);
 		user.setToken(token);
 
-		if (!user.getUser().equals("test") || !user.getPwd().equals("test"))
+		if (!user.getUserName().equals("test") || !user.getPwd().equals("test"))
 			return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
 
 		return new ResponseEntity<>(user, HttpStatus.OK);
